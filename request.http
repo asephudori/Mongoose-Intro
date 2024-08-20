@@ -1,0 +1,15 @@
+###
+GET http://localhost:3000/api/
+
+###
+POST http://localhost:3000/api/create
+Content-Type: application/json
+
+{
+    "name":"kafka",
+    "email":"kafka@mail.com",
+    "age":28
+}
+
+###
+GET http://localhost:3000/api/user/
